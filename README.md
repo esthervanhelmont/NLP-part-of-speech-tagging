@@ -1,6 +1,3 @@
-# NLP-part-of-speech-tagging
-ToU x Udacity part of speech tagging
-
 # Part-of-Speech Tagger Using a Hidden Markov Model (HMM)
 
 This project builds a simple Part-of-Speech (POS) tagger that can automatically label words in a sentence with their grammatical category (such as NOUN, VERB, ADJ, etc.).  
@@ -9,7 +6,7 @@ The goal of the project is to understand how statistical sequence models work an
 
 ---
 
-## 1. What This Project Does (Simple Explanation)
+## 1. What This Project Does
 
 - We give the computer many example sentences where every word already has a correct tag.
 - The computer studies these examples and learns:
@@ -88,7 +85,7 @@ This tells us how well the model learned.
 
 ---
 
-## 4. Results (Simple Summary)
+## 4. Results
 
 - The **Most-Frequent-Class (MFC)** baseline performs strongly.
 - The HMM further improves tagging by using **context**, not just individual words.
